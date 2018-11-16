@@ -1,11 +1,10 @@
 # Huffman-encoding
 HW7 Huffman encoding
-Yilian Liu Q75098
 Vinay Gopalan
 
-The encoder uses bitio to read characters from files and uses huffman to determine how the
-characters will be encoded. It then accesses a .comp file and writes into the file.
-The decode also uses the bitio and huffman, and writes into a .comp.palintext file. 
+The Encoder uses BitIO's functionality to read characters from files and uses Huffman to determine how the
+characters should be encoded. It then accesses a .comp file and writes into the file.
+Decode reverses the process and writes into a .comp.palintext file. 
 
 files:	name				raw size	compressed size		match
 	bee_movie			55,339		32,307			yes
